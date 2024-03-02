@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', 'Arial';
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(232, 234, 234);
+}
+
+.titulos {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.titulos > .bnt {
+    padding: 0px 30px;
+    width: 100%;
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    /* so falta estilizar o J */
+}
+
+.bnt > p > span {
+    color: rgb(125, 42, 232);
+}
+
+.bnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 69px;
+
+
+    /* background-color: blueviolet; */
+}
+
+.bnt >.B {
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(232, 234, 234);
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+}
+
+.bnt > p {
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(85, 85, 85)
+}
+
+
+
+.subti {
+    margin: 10px 30px;
+    margin-top: 25%;
+}
+
+.subti > h1>span {
+    color: rgb(125, 42, 232);
+}
+
+.subti > h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(85, 85, 85);
+
+}
+
+.subti > h2 {
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 25px;
+    color: rgb(85, 85, 85);
+}
+
+.subti>p {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.subti>.bnt1 {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px rgb(125, 42, 232);
+    background-color: rgb(125, 42, 232);
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    margin-right: 20px;
+
+}
+
+.subti >.bnt2 {
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px rgb(125, 42, 232);
+    background-color: white;
+    font-size: 15px;
+    color: rgb(125, 42, 232);
+    font-weight: 600;
+
+}
+
+.icones {
+    width: 10px;
+    display: flex;
+    margin: 50px;
+    gap: 50px;
+}
+
+.tfclass  > img{
+    width: 50px;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ft {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(232, 234, 234);
+}
+
+.ft > img {
+    width: 100%;
+}
